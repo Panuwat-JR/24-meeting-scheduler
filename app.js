@@ -14,7 +14,7 @@ app.post('/meetings/cancel', (req, res) => {
     res.json({ message: 'Cancelled' });
 });
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 4444;
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 });
